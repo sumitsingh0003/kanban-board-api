@@ -1,6 +1,5 @@
 const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require('cors');
+const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
 
@@ -11,37 +10,17 @@ const errorHandler = require("./middlewares/errorHandler");
 
 const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
+
 require("dotenv").config();
 
 const app = express();
 
 connectDB();
 
-// const allowedOrigins = [
-//   "http://localhost:3000",
-//   "https://kan-ban-board-ai.vercel.app"
-// ];
-
-// app.use(cors({
-//   origin: function(origin, callback){
-//     if(!origin || allowedOrigins.includes(origin)){
-//       callback(null, true);
-//     }else{
-//       callback(new Error("Not allowed by CORS"));
-//     }
-//   },
-//   credentials: true
-// }));
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true })); 
-
 app.use(cors({
-  origin: '*',
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true,
+  origin: "*",
+  methods: ["GET","POST","PUT","DELETE"]
 }));
-
 
 app.use(express.json());
 
@@ -53,22 +32,15 @@ app.get("/", (req, res) => {
 });
 
 app.use("/tasks", taskRoutes);
-app.use("/auth",authRoutes);
-app.use("/users",userRoutes);
+app.use("/auth", authRoutes);
+app.use("/users", userRoutes);
 
 const server = http.createServer(app);
 
 const io = new Server(server,{
   cors:{
-    origin: (origin, callback)=>{
-      if(!origin || allowedOrigins.includes(origin)){
-        callback(null,true);
-      }else{
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-    methods:["GET","POST","PUT"],
-    credentials:true
+    origin:"*",
+    methods:["GET","POST","PUT","DELETE"]
   }
 });
 
@@ -76,6 +48,8 @@ socketHandler(io);
 
 app.use(errorHandler);
 
-server.listen(5000,()=>{
-  console.log("Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+
+server.listen(PORT,()=>{
+  console.log(`Server running on port ${PORT}`);
 });
