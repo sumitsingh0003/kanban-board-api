@@ -16,12 +16,30 @@ const app = express();
 
 connectDB();
 
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://kan-ban-board-ai.vercel.app"
+];
+
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: function(origin, callback){
+    if(!origin || allowedOrigins.includes(origin)){
+      callback(null, true);
+    }else{
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    status: "success",
+    message: "Kanban Board API is running 🚀"
+  });
+});
 
 app.use("/tasks", taskRoutes);
 app.use("/auth",authRoutes);
@@ -31,8 +49,15 @@ const server = http.createServer(app);
 
 const io = new Server(server,{
   cors:{
-    origin:"http://localhost:3000",
-    methods:["GET","POST","PUT"]
+    origin: (origin, callback)=>{
+      if(!origin || allowedOrigins.includes(origin)){
+        callback(null,true);
+      }else{
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    methods:["GET","POST","PUT"],
+    credentials:true
   }
 });
 
