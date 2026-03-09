@@ -46,7 +46,6 @@ const io = new Server(server,{
 });
 
 socketHandler(io);
-
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
