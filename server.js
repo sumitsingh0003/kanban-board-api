@@ -18,12 +18,9 @@ const app = express();
 // connectDB();
 
 app.use(cors({
-  origin:[
-    "http://localhost:3000",
-    "https://kan-ban-board-ai.vercel.app"
-  ],
+ origin: "*",
   methods:["GET","POST","PUT","DELETE"],
-  credentials:true
+  credentials: true
 }));
 
 app.use(express.json());
