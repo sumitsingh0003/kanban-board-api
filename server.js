@@ -1,6 +1,7 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require('cors');
 const http = require("http");
-const cors = require("cors");
 const { Server } = require("socket.io");
 
 const connectDB = require("./config/db");
@@ -32,11 +33,15 @@ connectDB();
 //   credentials: true
 // }));
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true })); 
+
 app.use(cors({
-  origin: "*",
-  methods: ["GET","POST","PUT","DELETE"],
-  credentials: false
+  origin: '*',
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
 }));
+
 
 app.use(express.json());
 
