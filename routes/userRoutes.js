@@ -8,5 +8,6 @@ router.get('/me', auth, userController.getCurrentUser);
 router.get("/:id", auth, userController.getSingleUser);
 router.put("/:id", auth, userController.updateUser);
 router.get("/", auth, userController.getUsers);
+router.get('/list/all', auth, userController.getAllUsers);
 
 module.exports = router;

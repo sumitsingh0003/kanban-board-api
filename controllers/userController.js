@@ -116,3 +116,16 @@ exports.updateUser = async (req, res) => {
     });
   }
 };
+
+
+exports.getAllUsers = async (req, res, next) => {
+  try {
+    const users = await User.find({}, 'name email _id');
+    res.json({
+      success: true,
+      data: users
+    });
+  } catch (err) {
+    next(err);
+  }
+};

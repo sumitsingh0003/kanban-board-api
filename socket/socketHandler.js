@@ -1,35 +1,23 @@
-// backend/socket/socketHandler.js
-/**
- * @typedef {Object} User
- * @property {string} _id
- * @property {string} name
- * @property {string} email
- */
-
-/**
- * @typedef {Object} TaskEditingData
- * @property {string} taskId
- * @property {User} user
- */
+const { logger } = require('../utils/logger');
 
 module.exports = function(io) {
   // Store active editing sessions
-  /** @type {Map<string, {userId: string, userName: string, socketId: string}>} */
   const editingSessions = new Map();
-
-  // Store socket to user mapping
-  /** @type {Map<string, string>} */
   const socketToUser = new Map();
 
   io.on("connection", (socket) => {
-    console.log(`🟢 User connected: ${socket.id}`);
+    logger.socket('connection', { socketId: socket.id });
 
     // User identifies themselves after connection
     socket.on("userConnected", (userData) => {
       if (userData?._id) {
         socketToUser.set(socket.id, userData._id);
         socket.join(`user:${userData._id}`);
-        console.log(`👤 User ${userData.name} (${userData._id}) mapped to socket ${socket.id}`);
+        logger.socket('userConnected', { 
+          socketId: socket.id,
+          userId: userData._id,
+          userName: userData.name 
+        });
       }
     });
 
@@ -39,7 +27,7 @@ module.exports = function(io) {
         const { taskId, user } = data || {};
         
         if (!taskId || !user?._id) {
-          console.error("Invalid editing data:", data);
+          logger.socket('taskEditing - invalid data', { data, socketId: socket.id });
           return;
         }
 
@@ -51,6 +39,11 @@ module.exports = function(io) {
               taskId,
               message: `Task is being edited by ${currentEditor.userName}`,
               editor: currentEditor
+            });
+            logger.socket('taskEditBlocked', { 
+              taskId, 
+              userId: user._id,
+              blockedBy: currentEditor.userId 
             });
             return;
           }
@@ -74,9 +67,13 @@ module.exports = function(io) {
           timestamp: new Date().toISOString()
         });
 
-        console.log(`✏️ User ${user.name} started editing task ${taskId}`);
+        logger.socket('taskEditingStarted', { 
+          taskId, 
+          userId: user._id,
+          userName: user.name 
+        });
       } catch (error) {
-        console.error("Error in taskEditing:", error);
+        logger.socket('taskEditing error', { error: error.message, socketId: socket.id });
       }
     });
 
@@ -100,22 +97,25 @@ module.exports = function(io) {
             timestamp: new Date().toISOString()
           });
 
-          console.log(`✅ User ${user.name} stopped editing task ${taskId}`);
+          logger.socket('taskEditingStopped', { 
+            taskId, 
+            userId: user._id,
+            userName: user.name 
+          });
         }
       } catch (error) {
-        console.error("Error in taskEditingStopped:", error);
+        logger.socket('taskEditingStopped error', { error: error.message, socketId: socket.id });
       }
     });
 
     // When task is updated
     socket.on("taskUpdated", (data) => {
       try {
-        // ✅ FIX: Check if data is task object or has task property
         const task = data?.task || data;
         const updatedBy = data?.updatedBy || data?.user || null;
         
         if (!task?._id) {
-          console.error("Invalid task update data:", data);
+          logger.socket('taskUpdated - invalid data', { data, socketId: socket.id });
           return;
         }
 
@@ -131,9 +131,12 @@ module.exports = function(io) {
           timestamp: new Date().toISOString()
         });
 
-        console.log(`🔄 Task ${task._id} updated by ${updatedBy?.name || 'unknown'}`);
+        logger.socket('taskUpdated', { 
+          taskId: task._id,
+          updatedBy: updatedBy?.email 
+        });
       } catch (error) {
-        console.error("Error in taskUpdated:", error);
+        logger.socket('taskUpdated error', { error: error.message, socketId: socket.id });
       }
     });
 
@@ -144,7 +147,7 @@ module.exports = function(io) {
         const movedBy = data?.movedBy || data?.user || null;
 
         if (!task?._id) {
-          console.error("Invalid task move data:", data);
+          logger.socket('taskMoved - invalid data', { data, socketId: socket.id });
           return;
         }
         
@@ -154,9 +157,12 @@ module.exports = function(io) {
           timestamp: new Date().toISOString()
         });
 
-        console.log(`📦 Task ${task._id} moved by ${movedBy?.name || 'unknown'}`);
+        logger.socket('taskMoved', { 
+          taskId: task._id,
+          movedBy: movedBy?.email 
+        });
       } catch (error) {
-        console.error("Error in taskMoved:", error);
+        logger.socket('taskMoved error', { error: error.message, socketId: socket.id });
       }
     });
 
@@ -167,7 +173,7 @@ module.exports = function(io) {
         const createdBy = data?.createdBy || data?.user || null;
 
         if (!task?._id) {
-          console.error("Invalid task create data:", data);
+          logger.socket('taskCreated - invalid data', { data, socketId: socket.id });
           return;
         }
         
@@ -177,9 +183,12 @@ module.exports = function(io) {
           timestamp: new Date().toISOString()
         });
 
-        console.log(`✨ Task ${task._id} created by ${createdBy?.name || 'unknown'}`);
+        logger.socket('taskCreated', { 
+          taskId: task._id,
+          createdBy: createdBy?.email 
+        });
       } catch (error) {
-        console.error("Error in taskCreated:", error);
+        logger.socket('taskCreated error', { error: error.message, socketId: socket.id });
       }
     });
 
@@ -190,7 +199,7 @@ module.exports = function(io) {
         const deletedBy = data?.deletedBy || data?.user || null;
 
         if (!taskId) {
-          console.error("Invalid task delete data:", data);
+          logger.socket('taskDeleted - invalid data', { data, socketId: socket.id });
           return;
         }
         
@@ -204,9 +213,12 @@ module.exports = function(io) {
           timestamp: new Date().toISOString()
         });
 
-        console.log(`🗑️ Task ${taskId} deleted by ${deletedBy?.name || 'unknown'}`);
+        logger.socket('taskDeleted', { 
+          taskId,
+          deletedBy: deletedBy?.email 
+        });
       } catch (error) {
-        console.error("Error in taskDeleted:", error);
+        logger.socket('taskDeleted error', { error: error.message, socketId: socket.id });
       }
     });
 
@@ -228,15 +240,19 @@ module.exports = function(io) {
                 timestamp: new Date().toISOString()
               });
               
-              console.log(`🔴 User ${session.userName} disconnected, released task ${taskId}`);
+              logger.socket('taskEditingStopped - disconnect', { 
+                taskId, 
+                userId: session.userId,
+                userName: session.userName 
+              });
             }
           }
         }
 
         socketToUser.delete(socket.id);
-        console.log(`🔴 User disconnected: ${socket.id}`);
+        logger.socket('disconnect', { socketId: socket.id });
       } catch (error) {
-        console.error("Error in disconnect:", error);
+        logger.socket('disconnect error', { error: error.message, socketId: socket.id });
       }
     });
   });

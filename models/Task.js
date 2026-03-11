@@ -1,10 +1,16 @@
-// backend/models/Task.js
 const mongoose = require('mongoose');
 
 const userInfoSchema = new mongoose.Schema({
   _id: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   name: { type: String, required: true },
   email: { type: String, required: true }
+}, { _id: false });
+
+// Schema for edit history
+const editHistorySchema = new mongoose.Schema({
+  updatedBy: { type: userInfoSchema, required: true },
+  changes: { type: mongoose.Schema.Types.Mixed },
+  timestamp: { type: Date, default: Date.now }
 }, { _id: false });
 
 const taskSchema = new mongoose.Schema({
@@ -44,7 +50,6 @@ const taskSchema = new mongoose.Schema({
     type: String,
     unique: true,
     sparse: true
-    // Remove index: true from here
   },
   order: { 
     type: Number, 
@@ -54,10 +59,16 @@ const taskSchema = new mongoose.Schema({
     type: Number, 
     default: 1 
   },
-  // User info
-  createdBy: userInfoSchema,
-  updatedBy: userInfoSchema,
-  assignedTo: [userInfoSchema],
+  active_status: {
+    type: Number,
+    enum: [0, 1],
+    default: 1 
+  },
+  
+  createdBy: { type: userInfoSchema, required: true },
+  updatedBy: { type: userInfoSchema }, 
+  editHistory: [editHistorySchema], 
+  assignedTo: [userInfoSchema], 
   comments: [{ 
     type: mongoose.Schema.Types.ObjectId, 
     ref: 'Comment' 
@@ -66,9 +77,10 @@ const taskSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Define indexes here instead of in schema
+// Indexes
 taskSchema.index({ status: 1, order: 1 });
-// Remove duplicate taskNumber index from here if you already have unique: true in schema
+taskSchema.index({ active_status: 1 });
+taskSchema.index({ 'assignedTo._id': 1 });
 
 const Task = mongoose.model('Task', taskSchema);
 module.exports = Task;

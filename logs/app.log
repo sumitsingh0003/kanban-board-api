@@ -1,0 +1,1102 @@
+{"timestamp":"2026-03-11T06:10:41.288Z","level":"INFO","message":"Starting server...","mongoURI":"Loaded"}
+{"timestamp":"2026-03-11T06:10:43.525Z","level":"INFO","message":"Server running on port 5000"}
+{"timestamp":"2026-03-11T06:11:24.698Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.761Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"63ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.768Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.845Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.857Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"12ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.875Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.878Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.885Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:24.891Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:25.142Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:11:25.143Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:25.150Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"265ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:25.307Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"539ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:11:25.308Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:25.565Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"XKj9G0fnBYDFFJxFAAAB"}
+{"timestamp":"2026-03-11T06:11:25.574Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"XKj9G0fnBYDFFJxFAAAB","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:11:25.794Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"486ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:11:51.629Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.635Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"6ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.641Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.643Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.651Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.669Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"18ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.905Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:11:51.906Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.908Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"267ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.911Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:51.913Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:52.152Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:11:52.154Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:11:52.157Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"246ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:05.727Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:05.729Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:05.747Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","password":"Sumit@321"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:06.170Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":400,"responseTime":"422ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:06.171Z","level":"WARN","message":"Request failed","statusCode":400,"response":{"status":false,"msg":"Invalid email or password"},"method":"POST","url":"/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:17.767Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:17.771Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:17.773Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","password":"Sumit@321"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:18.151Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":400,"responseTime":"378ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:18.153Z","level":"WARN","message":"Request failed","statusCode":400,"response":{"status":false,"msg":"Invalid email or password"},"method":"POST","url":"/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:26.639Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:26.641Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:26.643Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","password":"Sumit@321"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:27.035Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":400,"responseTime":"392ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:27.036Z","level":"WARN","message":"Request failed","statusCode":400,"response":{"status":false,"msg":"Invalid email or password"},"method":"POST","url":"/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:48.803Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/forgot-password","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:48.806Z","level":"API","message":"OPTIONS /auth/forgot-password","method":"OPTIONS","url":"/auth/forgot-password","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:48.808Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai"},"method":"POST","url":"/auth/forgot-password","ip":"::1"}
+{"timestamp":"2026-03-11T06:12:52.259Z","level":"API","message":"POST /forgot-password","method":"POST","url":"/forgot-password","statusCode":200,"responseTime":"3451ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:18.201Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/verify-otp","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:18.204Z","level":"API","message":"OPTIONS /auth/verify-otp","method":"OPTIONS","url":"/auth/verify-otp","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:18.207Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","otp":"476192"},"method":"POST","url":"/auth/verify-otp","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:18.452Z","level":"API","message":"POST /verify-otp","method":"POST","url":"/verify-otp","statusCode":200,"responseTime":"245ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:27.953Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/reset-password","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:27.956Z","level":"API","message":"OPTIONS /auth/reset-password","method":"OPTIONS","url":"/auth/reset-password","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:27.958Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","newPassword":"Sumit@321"},"method":"POST","url":"/auth/reset-password","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:31.100Z","level":"API","message":"POST /reset-password","method":"POST","url":"/reset-password","statusCode":200,"responseTime":"3142ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:36.884Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:36.887Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:36.888Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","password":"Sumit@321"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:37.231Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":200,"responseTime":"343ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:37.236Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:37.238Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:37.240Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:37.710Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":200,"responseTime":"469ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:13:37.755Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"UaysMIAApY-3MQJtAAAD"}
+{"timestamp":"2026-03-11T06:13:37.758Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"UaysMIAApY-3MQJtAAAD","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:13:39.670Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"UaysMIAApY-3MQJtAAAD"}
+{"timestamp":"2026-03-11T06:13:39.680Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.692Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.696Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.701Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.703Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.704Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.705Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.938Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:13:39.939Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.942Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"238ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.944Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:39.951Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:40.158Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"478ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:13:40.160Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:40.185Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:13:40.188Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:40.190Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"246ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:13:40.222Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"t5OoOtu3l-f4e-LzAAAF"}
+{"timestamp":"2026-03-11T06:13:40.227Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"t5OoOtu3l-f4e-LzAAAF","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:13:40.630Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"470ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:14:02.390Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.392Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.394Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.396Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.401Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.405Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.649Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:14:02.649Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.651Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"250ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.652Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.655Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.906Z","level":"INFO","message":"Fetched 6 tasks"}
+{"timestamp":"2026-03-11T06:14:02.909Z","level":"INFO","message":"Successfully fetched 6 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:02.916Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"264ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.026Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.027Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.029Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.030Z","level":"API","message":"OPTIONS /tasks/latest-number","method":"OPTIONS","url":"/tasks/latest-number","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.031Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.035Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.036Z","level":"API","message":"OPTIONS /tasks/latest-number","method":"OPTIONS","url":"/tasks/latest-number","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.037Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.041Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.043Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.265Z","level":"API","message":"GET /latest-number","method":"GET","url":"/latest-number","statusCode":200,"responseTime":"234ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.267Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.494Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":200,"responseTime":"451ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:14:17.498Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.510Z","level":"API","message":"GET /latest-number","method":"GET","url":"/latest-number","statusCode":304,"responseTime":"243ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:17.963Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"465ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:14:44.424Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.426Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.428Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"title":"New Test Task","description":"test Task Mail","priority":"high","dueDate":"2026-03-11","assignedTo":[],"taskNumber":"007","status":"todo","order":0,"createdBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"createdAt":"2026-03-11T06:14:44.414Z"},"method":"POST","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.429Z","level":"INFO","message":"Creating new task","body":{"title":"New Test Task","description":"test Task Mail","priority":"high","dueDate":"2026-03-11","assignedTo":[],"taskNumber":"007","status":"todo","order":0,"createdBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"createdAt":"2026-03-11T06:14:44.414Z"},"method":"POST","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.430Z","level":"INFO","message":"Creating new task","createdBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:14:44.667Z","level":"INFO","message":"Task created successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","title":"New Test Task"}
+{"timestamp":"2026-03-11T06:14:44.915Z","level":"INFO","message":"Task created successfully in 486ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"POST","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.918Z","level":"API","message":"POST /","method":"POST","url":"/","statusCode":200,"responseTime":"490ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.927Z","level":"SOCKET","message":"Socket: taskCreated","event":"taskCreated","socketId":null,"taskId":"69b108543b3783dd20d90216","createdBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:14:44.931Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:44.933Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:45.163Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:14:45.164Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:14:45.167Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"236ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.164Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"XKj9G0fnBYDFFJxFAAAB"}
+{"timestamp":"2026-03-11T06:15:16.917Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.926Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"9ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.930Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.940Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.947Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"7ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.950Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.951Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.953Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:16.957Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:17.199Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:15:17.200Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:17.202Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"249ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:17.381Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"451ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:15:17.384Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:17.566Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"7unqnkXM2ZYuIoScAAAH"}
+{"timestamp":"2026-03-11T06:15:17.567Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"7unqnkXM2ZYuIoScAAAH","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:15:17.834Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"450ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:15:25.982Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:25.984Z","level":"API","message":"OPTIONS /tasks/move/69b108543b3783dd20d90216","method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:25.985Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:25.987Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:25.989Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:15:26.461Z","level":"INFO","message":"Task moved successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:15:26.700Z","level":"INFO","message":"Task moved successfully in 713ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:26.706Z","level":"API","message":"PUT /move/69b108543b3783dd20d90216","method":"PUT","url":"/move/69b108543b3783dd20d90216","statusCode":200,"responseTime":"721ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:15:26.720Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b108543b3783dd20d90216","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:02.234Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"7unqnkXM2ZYuIoScAAAH"}
+{"timestamp":"2026-03-11T06:16:02.809Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.811Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.812Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.814Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.814Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.816Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.817Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.823Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:02.824Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.060Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:16:03.061Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.064Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"241ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.269Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"452ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:16:03.270Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.443Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"t5OoOtu3l-f4e-LzAAAF"}
+{"timestamp":"2026-03-11T06:16:03.564Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"--iI6qNRpyX3igcKAAAJ"}
+{"timestamp":"2026-03-11T06:16:03.578Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"--iI6qNRpyX3igcKAAAJ","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:16:03.719Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"448ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:16:03.910Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.912Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.913Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.917Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.919Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.921Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.923Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.928Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:03.931Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:04.182Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:16:04.184Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:04.191Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"263ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:04.370Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"457ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:16:04.375Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:04.437Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"h4QqQajrUUeYAb5hAAAL"}
+{"timestamp":"2026-03-11T06:16:04.443Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"h4QqQajrUUeYAb5hAAAL","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:16:04.832Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"457ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:16:11.458Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:11.460Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:11.462Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:11.463Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:11.464Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:11.932Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:12.183Z","level":"INFO","message":"Task moved successfully in 720ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:12.190Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"727ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:12.199Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:19.216Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.218Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.220Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.222Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.222Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:19.713Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:19.954Z","level":"INFO","message":"Task moved successfully in 732ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.959Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"739ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:19.967Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:21.128Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.130Z","level":"API","message":"OPTIONS /tasks/move/69b108543b3783dd20d90216","method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.134Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":1,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.137Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","toOrder":1,"method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.138Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:21.596Z","level":"INFO","message":"Task moved successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:21.826Z","level":"INFO","message":"Task moved successfully in 689ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.831Z","level":"API","message":"PUT /move/69b108543b3783dd20d90216","method":"PUT","url":"/move/69b108543b3783dd20d90216","statusCode":200,"responseTime":"697ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:21.836Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b108543b3783dd20d90216","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:24.464Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":1,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:24.466Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","toOrder":1,"method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:24.467Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:24.935Z","level":"INFO","message":"Task moved successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:25.165Z","level":"INFO","message":"Task moved successfully in 699ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:25.167Z","level":"API","message":"PUT /move/69b108543b3783dd20d90216","method":"PUT","url":"/move/69b108543b3783dd20d90216","statusCode":200,"responseTime":"703ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:25.169Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b108543b3783dd20d90216","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:26.763Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:26.765Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:26.766Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:26.768Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:26.769Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:27.227Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:27.470Z","level":"INFO","message":"Task moved successfully in 702ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:27.472Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"706ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:27.475Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:46.228Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.230Z","level":"API","message":"OPTIONS /tasks/move/69b0ee9bd2aea291466b3978","method":"OPTIONS","url":"/tasks/move/69b0ee9bd2aea291466b3978","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.231Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.233Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.234Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:46.703Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:46.938Z","level":"INFO","message":"Task moved successfully in 705ms","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.941Z","level":"API","message":"PUT /move/69b0ee9bd2aea291466b3978","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","statusCode":200,"responseTime":"710ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:46.946Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:54.453Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:54.454Z","level":"API","message":"OPTIONS /tasks/move/69b108543b3783dd20d90216","method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:54.456Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:54.457Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:54.458Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:54.923Z","level":"INFO","message":"Task moved successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:55.154Z","level":"INFO","message":"Task moved successfully in 697ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:55.157Z","level":"API","message":"PUT /move/69b108543b3783dd20d90216","method":"PUT","url":"/move/69b108543b3783dd20d90216","statusCode":200,"responseTime":"701ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:55.159Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b108543b3783dd20d90216","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:56.284Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.286Z","level":"API","message":"OPTIONS /tasks/move/69b0ee9bd2aea291466b3978","method":"OPTIONS","url":"/tasks/move/69b0ee9bd2aea291466b3978","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.287Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":1,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.288Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","toOrder":1,"method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.289Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:16:56.741Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:16:56.979Z","level":"INFO","message":"Task moved successfully in 691ms","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.985Z","level":"API","message":"PUT /move/69b0ee9bd2aea291466b3978","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","statusCode":200,"responseTime":"698ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:16:56.996Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:17:00.502Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":2,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:00.504Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","toOrder":2,"method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:00.505Z","level":"INFO","message":"Moving task","taskId":"69b0ee9bd2aea291466b3978","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:17:01.018Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:17:01.286Z","level":"INFO","message":"Task moved successfully in 782ms","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:01.292Z","level":"API","message":"PUT /move/69b0ee9bd2aea291466b3978","method":"PUT","url":"/move/69b0ee9bd2aea291466b3978","statusCode":200,"responseTime":"790ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:01.301Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:17:12.013Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:12.015Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:12.016Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:12.018Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.019Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.020Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.024Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.028Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.477Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"449ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:17:12.479Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:12.934Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"455ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:17:33.473Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:41.640Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:41.641Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:41.643Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:41.645Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:41.647Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:41.648Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:41.653Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"5ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:41.655Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:42.112Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"456ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:17:42.119Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:42.581Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"462ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:17:44.455Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:44.457Z","level":"API","message":"OPTIONS /tasks/69b0ed5ad2aea291466b395e","method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:44.460Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"title":"Hey theress","description":"This is my New task","priority":"low","dueDate":"2026-03-11","assignedTo":[{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"}],"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"updatedAt":"2026-03-11T06:17:44.444Z"},"method":"PUT","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:44.462Z","level":"INFO","message":"Updating task","taskId":"69b0ed5ad2aea291466b395e","updatedBy":"sumit@saleassist.ai","method":"PUT","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:44.464Z","level":"INFO","message":"Updating task","taskId":"69b0ed5ad2aea291466b395e","updatedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:17:44.935Z","level":"INFO","message":"Task updated successfully","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","changes":["title","dueDate","updatedAt"]}
+{"timestamp":"2026-03-11T06:17:45.169Z","level":"INFO","message":"Task updated successfully in 707ms","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","method":"PUT","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.178Z","level":"API","message":"PUT /69b0ed5ad2aea291466b395e","method":"PUT","url":"/69b0ed5ad2aea291466b395e","statusCode":200,"responseTime":"718ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.183Z","level":"SOCKET","message":"Socket: taskUpdated - invalid data","event":"taskUpdated - invalid data","socketId":"h4QqQajrUUeYAb5hAAAL","data":{"task":{"title":"Hey theress","description":"This is my New task","priority":"low","dueDate":"2026-03-11","assignedTo":[{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"}],"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"updatedAt":"2026-03-11T06:17:44.444Z"},"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"}}}
+{"timestamp":"2026-03-11T06:17:45.188Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.192Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.196Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.199Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.409Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:17:45.451Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:17:45.452Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:17:45.455Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"259ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:12.903Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:12.904Z","level":"API","message":"OPTIONS /tasks/move/69b108543b3783dd20d90216","method":"OPTIONS","url":"/tasks/move/69b108543b3783dd20d90216","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:12.906Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"todo","order":2,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:12.908Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"todo","toOrder":2,"method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:12.908Z","level":"INFO","message":"Moving task","taskId":"69b108543b3783dd20d90216","toStatus":"todo","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:18:13.366Z","level":"INFO","message":"Task moved successfully","taskId":"69b108543b3783dd20d90216","taskNumber":"007","from":"inprogress","to":"todo"}
+{"timestamp":"2026-03-11T06:18:13.639Z","level":"INFO","message":"Task moved successfully in 731ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"PUT","url":"/move/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:13.643Z","level":"API","message":"PUT /move/69b108543b3783dd20d90216","method":"PUT","url":"/move/69b108543b3783dd20d90216","statusCode":200,"responseTime":"737ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:13.648Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b108543b3783dd20d90216","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:18:23.363Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:23.367Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:23.368Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:23.370Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:23.372Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:23.374Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:23.376Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:23.377Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:23.827Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"450ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:23.833Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:24.298Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"465ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:47.391Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:48.867Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"--iI6qNRpyX3igcKAAAJ"}
+{"timestamp":"2026-03-11T06:18:49.419Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.421Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.427Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.431Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.432Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.434Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.436Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.437Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.439Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.704Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:18:49.705Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.710Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"274ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:49.944Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"505ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:49.954Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.144Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"33oDh8v9wCh04OEWAAAN"}
+{"timestamp":"2026-03-11T06:18:50.146Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"33oDh8v9wCh04OEWAAAN","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:50.166Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"h4QqQajrUUeYAb5hAAAL"}
+{"timestamp":"2026-03-11T06:18:50.431Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"477ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:50.454Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.456Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.457Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.462Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.464Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.470Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.472Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.475Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.477Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.707Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:18:50.708Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.713Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"243ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.928Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"471ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:18:50.930Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:50.976Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"neEiN3DX_rkGKyWgAAAP"}
+{"timestamp":"2026-03-11T06:18:50.978Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"neEiN3DX_rkGKyWgAAAP","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:18:51.402Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"472ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:18:56.418Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:56.420Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:56.421Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:18:56.424Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:56.427Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:56.428Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:56.434Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:56.436Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:56.904Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"476ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:56.912Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:18:57.397Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"485ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:18:58.161Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:00.081Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:00.083Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:00.085Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:00.087Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:00.089Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:00.090Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:00.096Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"6ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:00.105Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:00.593Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"488ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:19:00.597Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:01.071Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"474ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:19:03.320Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:06.431Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:06.433Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:06.435Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:19:06.438Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:06.440Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:06.442Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:06.446Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:06.449Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:06.923Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"474ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:19:06.930Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:19:07.428Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"498ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:19:10.023Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:20:15.047Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0e14aa34fc13794e19aec","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.049Z","level":"API","message":"OPTIONS /tasks/move/69b0e14aa34fc13794e19aec","method":"OPTIONS","url":"/tasks/move/69b0e14aa34fc13794e19aec","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.051Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0e14aa34fc13794e19aec","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.052Z","level":"INFO","message":"Moving task","taskId":"69b0e14aa34fc13794e19aec","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0e14aa34fc13794e19aec","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.053Z","level":"INFO","message":"Moving task","taskId":"69b0e14aa34fc13794e19aec","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:20:15.532Z","level":"INFO","message":"Task moved successfully","taskId":"69b0e14aa34fc13794e19aec","taskNumber":"002","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:20:15.773Z","level":"INFO","message":"Task moved successfully in 721ms","taskId":"69b0e14aa34fc13794e19aec","taskNumber":"002","method":"PUT","url":"/move/69b0e14aa34fc13794e19aec","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.783Z","level":"API","message":"PUT /move/69b0e14aa34fc13794e19aec","method":"PUT","url":"/move/69b0e14aa34fc13794e19aec","statusCode":200,"responseTime":"731ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:15.792Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0e14aa34fc13794e19aec","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:20:17.320Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:17.323Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:17.326Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":2,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:17.329Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","toOrder":2,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:17.331Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:20:17.815Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:20:18.071Z","level":"INFO","message":"Task moved successfully in 742ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:18.079Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"753ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:18.086Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:20:20.840Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:20.842Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:20.844Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":2,"user":{"_id":"69acf1c0a2114d996eea9cf7","name":"Sumit Singh","email":"sumit18440@gmail.com","phone":"9891554993","createdAt":"2026-03-08T03:49:20.978Z","updatedAt":"2026-03-08T16:14:56.651Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:20.845Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","toOrder":2,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:20.846Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"inprogress","by":"sumit18440@gmail.com"}
+{"timestamp":"2026-03-11T06:20:21.313Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"inprogress","to":"inprogress"}
+{"timestamp":"2026-03-11T06:20:21.552Z","level":"INFO","message":"Task moved successfully in 707ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:21.556Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"712ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:21.560Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit18440@gmail.com"}
+{"timestamp":"2026-03-11T06:20:37.616Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:37.618Z","level":"API","message":"OPTIONS /tasks/69b108543b3783dd20d90216","method":"OPTIONS","url":"/tasks/69b108543b3783dd20d90216","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:37.620Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:37.622Z","level":"INFO","message":"Fetching task by ID","taskId":"69b108543b3783dd20d90216","method":"GET","url":"/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:37.873Z","level":"INFO","message":"Task fetched successfully in 252ms","taskId":"69b108543b3783dd20d90216","taskNumber":"007","method":"GET","url":"/69b108543b3783dd20d90216","ip":"::1"}
+{"timestamp":"2026-03-11T06:20:37.878Z","level":"API","message":"GET /69b108543b3783dd20d90216","method":"GET","url":"/69b108543b3783dd20d90216","statusCode":200,"responseTime":"257ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.470Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:21:11.472Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:21:11.475Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:21:11.478Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.480Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.482Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.484Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.487Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:11.961Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"474ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:21:11.970Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:12.459Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"489ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:21:48.975Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:48.977Z","level":"API","message":"OPTIONS /tasks/69b0ee9bd2aea291466b3978","method":"OPTIONS","url":"/tasks/69b0ee9bd2aea291466b3978","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:48.980Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"title":"Why do we use it?sss","description":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).","priority":"medium","dueDate":"2026-03-12","assignedTo":[{"_id":"69acf1c0a2114d996eea9cf7","name":"Sumit Singh","email":"sumit18440@gmail.com"}],"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"updatedAt":"2026-03-11T06:21:48.962Z"},"method":"PUT","url":"/tasks/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:48.982Z","level":"INFO","message":"Updating task","taskId":"69b0ee9bd2aea291466b3978","updatedBy":"sumit@saleassist.ai","method":"PUT","url":"/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:48.984Z","level":"INFO","message":"Updating task","taskId":"69b0ee9bd2aea291466b3978","updatedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:21:49.222Z","level":"INFO","message":"Assignment changes detected","taskId":"69b0ee9bd2aea291466b3978","added":1,"removed":0}
+{"timestamp":"2026-03-11T06:21:49.466Z","level":"INFO","message":"Task updated successfully","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","changes":["title","priority","dueDate","updatedAt"]}
+{"timestamp":"2026-03-11T06:21:49.707Z","level":"INFO","message":"Sending assignment emails to 1 new assignees"}
+{"timestamp":"2026-03-11T06:21:52.165Z","level":"INFO","message":"Task updated successfully in 3183ms","taskId":"69b0ee9bd2aea291466b3978","taskNumber":"005","method":"PUT","url":"/69b0ee9bd2aea291466b3978","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.168Z","level":"API","message":"PUT /69b0ee9bd2aea291466b3978","method":"PUT","url":"/69b0ee9bd2aea291466b3978","statusCode":200,"responseTime":"3188ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.169Z","level":"SOCKET","message":"Socket: taskUpdated - invalid data","event":"taskUpdated - invalid data","socketId":"neEiN3DX_rkGKyWgAAAP","data":{"task":{"title":"Why do we use it?sss","description":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).","priority":"medium","dueDate":"2026-03-12","assignedTo":[{"_id":"69acf1c0a2114d996eea9cf7","name":"Sumit Singh","email":"sumit18440@gmail.com"}],"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"},"updatedAt":"2026-03-11T06:21:48.962Z"},"updatedBy":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai"}}}
+{"timestamp":"2026-03-11T06:21:52.171Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.173Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.175Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.178Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.390Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ee9bd2aea291466b3978","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:21:52.418Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:21:52.419Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:21:52.420Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"245ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.290Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.293Z","level":"API","message":"OPTIONS /tasks/69b0e8f7fda43fe06e3dc2b9","method":"OPTIONS","url":"/tasks/69b0e8f7fda43fe06e3dc2b9","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.294Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.296Z","level":"INFO","message":"Fetching task by ID","taskId":"69b0e8f7fda43fe06e3dc2b9","method":"GET","url":"/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.533Z","level":"INFO","message":"Task fetched successfully in 237ms","taskId":"69b0e8f7fda43fe06e3dc2b9","taskNumber":"003","method":"GET","url":"/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:22:58.537Z","level":"API","message":"GET /69b0e8f7fda43fe06e3dc2b9","method":"GET","url":"/69b0e8f7fda43fe06e3dc2b9","statusCode":200,"responseTime":"243ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:48.855Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"neEiN3DX_rkGKyWgAAAP"}
+{"timestamp":"2026-03-11T06:23:49.087Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.088Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.089Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.095Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.097Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.098Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.099Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.100Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.101Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.332Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:23:49.333Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.338Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"238ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.576Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"487ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:23:49.579Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:49.627Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"oDDrTfOO4N85YoSfAAAR"}
+{"timestamp":"2026-03-11T06:23:49.628Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"oDDrTfOO4N85YoSfAAAR","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:23:50.061Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"482ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:23:50.212Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"33oDh8v9wCh04OEWAAAN"}
+{"timestamp":"2026-03-11T06:23:50.513Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.515Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.516Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.517Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.518Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.519Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.521Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.523Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.524Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.771Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:23:50.772Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.780Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"262ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:50.984Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"460ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:23:50.985Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:23:51.025Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"uGPla0Qf3zbCmUPCAAAT"}
+{"timestamp":"2026-03-11T06:23:51.027Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"uGPla0Qf3zbCmUPCAAAT","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:23:51.433Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"448ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:24:15.092Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:15.095Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:15.096Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:15.098Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:15.100Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:15.102Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:15.107Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:15.109Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:15.554Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"452ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:24:15.557Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:16.012Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"455ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:24:26.499Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:31.553Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:31.556Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:31.557Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:31.559Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:31.561Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:31.562Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:31.566Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:31.568Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:32.022Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"454ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:24:32.024Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:32.482Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"458ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:24:36.726Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:43.103Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:43.106Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:43.107Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:24:43.110Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:43.112Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:43.115Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:43.117Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:43.119Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:43.872Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"753ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:24:43.875Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:24:44.329Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"454ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:25:22.225Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:25:46.347Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:25:46.349Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:25:46.350Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:25:46.352Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:46.354Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:46.356Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:46.358Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:46.359Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:46.811Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"452ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:25:46.813Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:25:47.276Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"462ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:25:57.141Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:26:12.569Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:12.573Z","level":"API","message":"OPTIONS /tasks/69b0ed5ad2aea291466b395e","method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:12.574Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:12.576Z","level":"INFO","message":"Fetching task by ID","taskId":"69b0ed5ad2aea291466b395e","method":"GET","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:12.802Z","level":"INFO","message":"Task fetched successfully in 226ms","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","method":"GET","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:12.804Z","level":"API","message":"GET /69b0ed5ad2aea291466b395e","method":"GET","url":"/69b0ed5ad2aea291466b395e","statusCode":200,"responseTime":"230ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.276Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.277Z","level":"API","message":"OPTIONS /tasks/move/69b0ed5ad2aea291466b395e","method":"OPTIONS","url":"/tasks/move/69b0ed5ad2aea291466b395e","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.280Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.281Z","level":"INFO","message":"Moving task","taskId":"69b0ed5ad2aea291466b395e","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.282Z","level":"INFO","message":"Moving task","taskId":"69b0ed5ad2aea291466b395e","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:26:28.745Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:26:28.982Z","level":"INFO","message":"Task moved successfully in 701ms","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","method":"PUT","url":"/move/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.987Z","level":"API","message":"PUT /move/69b0ed5ad2aea291466b395e","method":"PUT","url":"/move/69b0ed5ad2aea291466b395e","statusCode":200,"responseTime":"707ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:28.992Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:26:32.766Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"oDDrTfOO4N85YoSfAAAR"}
+{"timestamp":"2026-03-11T06:26:33.019Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.021Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.022Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.024Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.025Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.026Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.027Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.029Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.032Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.276Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:26:33.277Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.283Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"254ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.392Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"uGPla0Qf3zbCmUPCAAAT"}
+{"timestamp":"2026-03-11T06:26:33.471Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"449ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:26:33.475Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.547Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"oGMFJ1DO_kudJn66AAAV"}
+{"timestamp":"2026-03-11T06:26:33.553Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"oGMFJ1DO_kudJn66AAAV","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:26:33.928Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"453ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:26:33.981Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.983Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.985Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.986Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.987Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.991Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.993Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.994Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:33.996Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:34.227Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:26:34.228Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:34.232Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"239ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:34.470Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"474ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:26:34.473Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:34.708Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"yM355iYGrAjFknf5AAAX"}
+{"timestamp":"2026-03-11T06:26:34.710Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"yM355iYGrAjFknf5AAAX","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:26:34.940Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"466ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:26:40.194Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:40.196Z","level":"API","message":"OPTIONS /tasks/69b0ed5ad2aea291466b395e","method":"OPTIONS","url":"/tasks/69b0ed5ad2aea291466b395e","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:40.198Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:40.199Z","level":"INFO","message":"Fetching task by ID","taskId":"69b0ed5ad2aea291466b395e","method":"GET","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:40.433Z","level":"INFO","message":"Task fetched successfully in 234ms","taskId":"69b0ed5ad2aea291466b395e","taskNumber":"004","method":"GET","url":"/69b0ed5ad2aea291466b395e","ip":"::1"}
+{"timestamp":"2026-03-11T06:26:40.435Z","level":"API","message":"GET /69b0ed5ad2aea291466b395e","method":"GET","url":"/69b0ed5ad2aea291466b395e","statusCode":200,"responseTime":"237ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.484Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:27:00.486Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:27:00.487Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:27:00.490Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.491Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.493Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.495Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.497Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:00.964Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"467ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:27:00.968Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:01.441Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"473ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:27:03.790Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ed5ad2aea291466b395e","userId":"69acf1c0a2114d996eea9cf7","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:27:49.893Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.895Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.897Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.898Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.900Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.902Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.908Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.914Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:49.915Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:50.166Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:27:50.168Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:50.180Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"265ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:50.422Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"514ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:27:50.424Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:27:50.483Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"z9dXdvMy4Mr__3EtAAAZ"}
+{"timestamp":"2026-03-11T06:27:50.484Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"z9dXdvMy4Mr__3EtAAAZ","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:27:50.908Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"484ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:28:11.145Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.147Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.150Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"john@gmail.com","password":"John@123"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.521Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":200,"responseTime":"371ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.525Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.526Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.529Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:11.998Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":200,"responseTime":"469ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:12.058Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"WaTHwXWx9wdq1fe4AAAb"}
+{"timestamp":"2026-03-11T06:28:12.061Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"WaTHwXWx9wdq1fe4AAAb","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:12.222Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"WaTHwXWx9wdq1fe4AAAb"}
+{"timestamp":"2026-03-11T06:28:12.228Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.240Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.246Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"6ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.247Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.248Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.250Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.251Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.495Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:28:12.498Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.509Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"259ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.519Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.524Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.700Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"472ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:12.701Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.711Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"pTy-chgDDNs675JrAAAd"}
+{"timestamp":"2026-03-11T06:28:12.712Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"pTy-chgDDNs675JrAAAd","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:12.774Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:28:12.775Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:12.779Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"260ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:13.173Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"472ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:29.694Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.699Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"5ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.703Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.704Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.707Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.708Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.958Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:28:29.960Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.970Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"263ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.973Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:29.975Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:30.225Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:28:30.226Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:30.230Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"257ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:43.754Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:28:43.756Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:28:43.759Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:28:43.762Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:43.763Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:43.766Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:43.768Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:43.769Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:44.232Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":200,"responseTime":"463ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:28:44.234Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:28:44.711Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"477ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:29:04.685Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:29:27.686Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b108543b3783dd20d90216","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:29:27.689Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b108543b3783dd20d90216","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:29:27.690Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b108543b3783dd20d90216","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:29:27.692Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:27.695Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:27.697Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:27.699Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:27.702Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:28.172Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"470ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:29:28.176Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:28.652Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"476ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:29:30.296Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b108543b3783dd20d90216","userId":"69b0ce5fa21b1c5e3722d11e","userName":"Sumit Singh"}
+{"timestamp":"2026-03-11T06:29:31.599Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"oGMFJ1DO_kudJn66AAAV"}
+{"timestamp":"2026-03-11T06:29:31.836Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.837Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.838Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.841Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.843Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.844Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.846Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.847Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:31.848Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:32.106Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:29:32.109Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:32.124Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"277ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:32.363Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"525ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:29:32.366Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:32.436Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"-lG3o8b2TGhnMuKYAAAf"}
+{"timestamp":"2026-03-11T06:29:32.437Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"-lG3o8b2TGhnMuKYAAAf","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:29:32.785Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"yM355iYGrAjFknf5AAAX"}
+{"timestamp":"2026-03-11T06:29:32.843Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"477ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:29:33.349Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.350Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.352Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.353Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.354Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.356Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.358Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.359Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.361Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.600Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:29:33.600Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.603Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"245ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:33.832Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"471ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:29:33.835Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:34.208Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"p9zCLuOnSu9ZgQXVAAAh"}
+{"timestamp":"2026-03-11T06:29:34.226Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"p9zCLuOnSu9ZgQXVAAAh","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:29:34.286Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"451ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:29:40.190Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"z9dXdvMy4Mr__3EtAAAZ"}
+{"timestamp":"2026-03-11T06:29:40.640Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.645Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"5ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.649Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.651Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.655Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.659Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.663Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.669Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.670Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.911Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:29:40.912Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:40.914Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"245ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:41.122Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"459ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:29:41.125Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:41.184Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"-7LGh1VrQiOHWpiTAAAj"}
+{"timestamp":"2026-03-11T06:29:41.185Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"-7LGh1VrQiOHWpiTAAAj","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:29:41.579Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"454ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:29:41.691Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"pTy-chgDDNs675JrAAAd"}
+{"timestamp":"2026-03-11T06:29:42.033Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.035Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.036Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.038Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.039Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.040Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.041Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.045Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.046Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.285Z","level":"INFO","message":"Fetched 7 tasks"}
+{"timestamp":"2026-03-11T06:29:42.286Z","level":"INFO","message":"Successfully fetched 7 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.288Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"243ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.492Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"451ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:29:42.493Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:29:42.544Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"6ZmG6EDQZHezxd2SAAAl"}
+{"timestamp":"2026-03-11T06:29:42.546Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"6ZmG6EDQZHezxd2SAAAl","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:29:42.957Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"464ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:30:02.380Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:30:02.384Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:30:02.386Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:30:02.389Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:02.391Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:02.392Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:02.394Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:02.400Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:02.855Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"455ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:30:02.858Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:30:03.316Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"458ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:30:14.786Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:31:01.026Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.027Z","level":"API","message":"OPTIONS /tasks/latest-number","method":"OPTIONS","url":"/tasks/latest-number","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.028Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.030Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.031Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.033Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.034Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.036Z","level":"API","message":"OPTIONS /tasks/latest-number","method":"OPTIONS","url":"/tasks/latest-number","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.039Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.041Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.266Z","level":"API","message":"GET /latest-number","method":"GET","url":"/latest-number","statusCode":200,"responseTime":"227ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.270Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks/latest-number","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.502Z","level":"API","message":"GET /latest-number","method":"GET","url":"/latest-number","statusCode":304,"responseTime":"232ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:01.519Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"478ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:31:01.526Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:02.047Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"521ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:31:20.047Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.049Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.052Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"title":"New  again task","description":"","priority":"low","dueDate":"2026-03-27","assignedTo":[],"taskNumber":"008","status":"todo","order":0,"createdBy":{"_id":"69ae42c75ee95f3eccd4f2ef","name":"John Dewey","email":"john@gmail.com"},"createdAt":"2026-03-11T06:31:20.037Z"},"method":"POST","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.053Z","level":"INFO","message":"Creating new task","body":{"title":"New  again task","description":"","priority":"low","dueDate":"2026-03-27","assignedTo":[],"taskNumber":"008","status":"todo","order":0,"createdBy":{"_id":"69ae42c75ee95f3eccd4f2ef","name":"John Dewey","email":"john@gmail.com"},"createdAt":"2026-03-11T06:31:20.037Z"},"method":"POST","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.054Z","level":"INFO","message":"Creating new task","createdBy":"john@gmail.com"}
+{"timestamp":"2026-03-11T06:31:20.305Z","level":"INFO","message":"Task created successfully","taskId":"69b10c383b3783dd20d902f8","taskNumber":"008","title":"New  again task"}
+{"timestamp":"2026-03-11T06:31:20.548Z","level":"INFO","message":"Task created successfully in 495ms","taskId":"69b10c383b3783dd20d902f8","taskNumber":"008","method":"POST","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.552Z","level":"API","message":"POST /","method":"POST","url":"/","statusCode":200,"responseTime":"500ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.557Z","level":"SOCKET","message":"Socket: taskCreated","event":"taskCreated","socketId":null,"taskId":"69b10c383b3783dd20d902f8","createdBy":"john@gmail.com"}
+{"timestamp":"2026-03-11T06:31:20.559Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.561Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.810Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:31:20.811Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:31:20.814Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"255ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:16.542Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b10c383b3783dd20d902f8","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:33:16.545Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b10c383b3783dd20d902f8","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:33:16.546Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b10c383b3783dd20d902f8","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:33:16.549Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:16.550Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:16.552Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:16.555Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:16.558Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:17.027Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"469ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:33:17.034Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:33:17.515Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"482ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:33:20.758Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b10c383b3783dd20d902f8","userId":"69ae42c75ee95f3eccd4f2ef","userName":"John Dewey"}
+{"timestamp":"2026-03-11T06:52:22.493Z","level":"INFO","message":"Starting server...","mongoURI":"Loaded"}
+{"timestamp":"2026-03-11T06:52:24.875Z","level":"INFO","message":"Server running on port 5000"}
+{"timestamp":"2026-03-11T06:52:24.974Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"znhTlu_zxDgCZAAEAAAC"}
+{"timestamp":"2026-03-11T06:52:24.976Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"znhTlu_zxDgCZAAEAAAC","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:24.977Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"DdhFL2OMzou3PE_3AAAD"}
+{"timestamp":"2026-03-11T06:52:24.978Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"DdhFL2OMzou3PE_3AAAD","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:25.445Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"molL4SVCaVi9Y1GSAAAG"}
+{"timestamp":"2026-03-11T06:52:25.447Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"fzhnt4tF4extBwAvAAAH"}
+{"timestamp":"2026-03-11T06:52:25.448Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"molL4SVCaVi9Y1GSAAAG","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:52:25.449Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"fzhnt4tF4extBwAvAAAH","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:52:41.355Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"znhTlu_zxDgCZAAEAAAC"}
+{"timestamp":"2026-03-11T06:52:41.365Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"DdhFL2OMzou3PE_3AAAD"}
+{"timestamp":"2026-03-11T06:52:41.393Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"fzhnt4tF4extBwAvAAAH"}
+{"timestamp":"2026-03-11T06:52:41.396Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"molL4SVCaVi9Y1GSAAAG"}
+{"timestamp":"2026-03-11T06:52:44.449Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.456Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"7ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.459Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.481Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.493Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"12ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.516Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.527Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"10ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.530Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.535Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.797Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:44.798Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.809Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"279ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.921Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.924Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.926Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.929Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.930Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.937Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.939Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:44.946Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"487ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:44.948Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.143Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"Wj0XMeRKBHFmJ6oBAAAJ"}
+{"timestamp":"2026-03-11T06:52:45.146Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"Wj0XMeRKBHFmJ6oBAAAJ","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:45.187Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:45.188Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.193Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"256ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.313Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.315Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.317Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.320Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.322Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.328Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.329Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.400Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"452ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:45.404Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"474ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:52:45.405Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.814Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"492ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:52:45.815Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:45.880Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"475ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:52:45.894Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"cckNsuCkuA8lb9aWAAAL"}
+{"timestamp":"2026-03-11T06:52:45.912Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"cckNsuCkuA8lb9aWAAAL","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:52:46.295Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"480ms","ip":"::1","userId":"69ae42c75ee95f3eccd4f2ef"}
+{"timestamp":"2026-03-11T06:52:46.380Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.383Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.385Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.387Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.388Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.390Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.392Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.396Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.398Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.436Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"P8CfHYAOgUhyLWYvAAAN"}
+{"timestamp":"2026-03-11T06:52:46.459Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"P8CfHYAOgUhyLWYvAAAN","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:52:46.657Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:46.658Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.661Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"265ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.872Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"480ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:46.874Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.987Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:46.988Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:46.991Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"1663ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:47.200Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"2NPeBE305PmfW369AAAP"}
+{"timestamp":"2026-03-11T06:52:47.202Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"2NPeBE305PmfW369AAAP","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:47.353Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"479ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:56.244Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"Wj0XMeRKBHFmJ6oBAAAJ"}
+{"timestamp":"2026-03-11T06:52:56.458Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.460Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.461Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.464Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.467Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.468Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.470Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.471Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.472Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.709Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:56.710Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.715Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"244ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:56.940Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"479ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:56.944Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:57.002Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"wSoCMOHE4f4spwPKAAAR"}
+{"timestamp":"2026-03-11T06:52:57.003Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"wSoCMOHE4f4spwPKAAAR","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:57.433Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"489ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:52:58.249Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"2NPeBE305PmfW369AAAP"}
+{"timestamp":"2026-03-11T06:52:58.940Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.942Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.946Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.949Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.951Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.952Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.953Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.958Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:58.959Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:59.199Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:52:59.200Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:59.203Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"245ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:59.449Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"495ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:59.450Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:52:59.702Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"HZg1RxLQ1-rOUm6_AAAT"}
+{"timestamp":"2026-03-11T06:52:59.712Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"HZg1RxLQ1-rOUm6_AAAT","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:52:59.929Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"479ms","ip":"::1","userId":"69acf1c0a2114d996eea9cf7"}
+{"timestamp":"2026-03-11T06:53:04.885Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b10c383b3783dd20d902f8","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:04.886Z","level":"API","message":"OPTIONS /tasks/move/69b10c383b3783dd20d902f8","method":"OPTIONS","url":"/tasks/move/69b10c383b3783dd20d902f8","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:04.905Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b10c383b3783dd20d902f8","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:04.907Z","level":"INFO","message":"Moving task","taskId":"69b10c383b3783dd20d902f8","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b10c383b3783dd20d902f8","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:04.909Z","level":"INFO","message":"Moving task","taskId":"69b10c383b3783dd20d902f8","toStatus":"inprogress","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:53:05.411Z","level":"INFO","message":"Task moved successfully","taskId":"69b10c383b3783dd20d902f8","taskNumber":"008","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:53:05.677Z","level":"INFO","message":"Task moved successfully in 770ms","taskId":"69b10c383b3783dd20d902f8","taskNumber":"008","method":"PUT","url":"/move/69b10c383b3783dd20d902f8","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:05.683Z","level":"API","message":"PUT /move/69b10c383b3783dd20d902f8","method":"PUT","url":"/move/69b10c383b3783dd20d902f8","statusCode":200,"responseTime":"778ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:53:05.701Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b10c383b3783dd20d902f8","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:53:18.508Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"wSoCMOHE4f4spwPKAAAR"}
+{"timestamp":"2026-03-11T06:53:25.563Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"HZg1RxLQ1-rOUm6_AAAT"}
+{"timestamp":"2026-03-11T06:53:58.417Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"P8CfHYAOgUhyLWYvAAAN"}
+{"timestamp":"2026-03-11T06:54:02.992Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"cckNsuCkuA8lb9aWAAAL"}
+{"timestamp":"2026-03-11T06:54:12.103Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.106Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.108Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"ashutosh2135@gmail.com","password":"Ashutosh@123"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.494Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":200,"responseTime":"386ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.497Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.498Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.498Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:12.975Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":200,"responseTime":"477ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:54:13.023Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"zq9Docr4cveqXJSbAAAV"}
+{"timestamp":"2026-03-11T06:54:13.025Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"zq9Docr4cveqXJSbAAAV","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:54:14.607Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"zq9Docr4cveqXJSbAAAV"}
+{"timestamp":"2026-03-11T06:54:14.611Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.620Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.623Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.631Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.633Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.644Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.649Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.907Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:14.910Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.924Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"280ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.929Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:14.933Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:15.101Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"490ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:54:15.104Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:15.129Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"iP6_th0hd8GfLRIWAAAX"}
+{"timestamp":"2026-03-11T06:54:15.131Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"iP6_th0hd8GfLRIWAAAX","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:54:15.177Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:15.179Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:15.183Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"254ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:15.591Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"487ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:54:38.994Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:38.996Z","level":"API","message":"OPTIONS /auth/login","method":"OPTIONS","url":"/auth/login","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:38.998Z","level":"INFO","message":"Incoming POST request","query":{},"body":{"email":"sumit@saleassist.ai","password":"Sumit@321"},"method":"POST","url":"/auth/login","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:39.378Z","level":"API","message":"POST /login","method":"POST","url":"/login","statusCode":200,"responseTime":"380ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:39.382Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:39.384Z","level":"API","message":"OPTIONS /users/me","method":"OPTIONS","url":"/users/me","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:39.385Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:39.869Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":200,"responseTime":"484ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:54:39.961Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"Bwc33ZjawZ0weMp-AAAZ"}
+{"timestamp":"2026-03-11T06:54:39.973Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"Bwc33ZjawZ0weMp-AAAZ","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:54:40.218Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"Bwc33ZjawZ0weMp-AAAZ"}
+{"timestamp":"2026-03-11T06:54:40.226Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.236Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.241Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"5ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.243Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.245Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.246Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.247Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.486Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:40.489Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.494Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":200,"responseTime":"248ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.500Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.502Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.707Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"481ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:54:40.709Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/me","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.735Z","level":"SOCKET","message":"Socket: connection","event":"connection","socketId":"T9O4y-LF_HKBd48wAAAb"}
+{"timestamp":"2026-03-11T06:54:40.736Z","level":"SOCKET","message":"Socket: userConnected","event":"userConnected","socketId":"T9O4y-LF_HKBd48wAAAb","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:54:40.746Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:40.748Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:40.752Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"252ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:41.191Z","level":"API","message":"GET /me","method":"GET","url":"/me","statusCode":304,"responseTime":"482ms","ip":"::1","userId":"69b0ce5fa21b1c5e3722d11e"}
+{"timestamp":"2026-03-11T06:54:48.345Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.352Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"7ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.353Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.355Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.359Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.364Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.611Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:48.615Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.626Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"273ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.632Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.639Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.916Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:48.919Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:48.935Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"302ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.965Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.971Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"6ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.975Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.977Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.981Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:49.983Z","level":"API","message":"OPTIONS /tasks","method":"OPTIONS","url":"/tasks","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.225Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:50.227Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.231Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"256ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.236Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/tasks","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.243Z","level":"INFO","message":"Fetching all tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.491Z","level":"INFO","message":"Fetched 8 tasks"}
+{"timestamp":"2026-03-11T06:54:50.492Z","level":"INFO","message":"Successfully fetched 8 tasks","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:50.494Z","level":"API","message":"GET /","method":"GET","url":"/","statusCode":304,"responseTime":"258ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:53.963Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:53.964Z","level":"API","message":"OPTIONS /tasks/move/69b0e8f7fda43fe06e3dc2b9","method":"OPTIONS","url":"/tasks/move/69b0e8f7fda43fe06e3dc2b9","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:53.965Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"inprogress","order":0,"user":{"_id":"69ad9f3322599de7657463c3","name":"Ashutosh Mishra","email":"ashutosh2135@gmail.com","phone":"9876432225","createdAt":"2026-03-08T16:09:23.425Z","updatedAt":"2026-03-09T04:24:13.996Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:53.967Z","level":"INFO","message":"Moving task","taskId":"69b0e8f7fda43fe06e3dc2b9","toStatus":"inprogress","toOrder":0,"method":"PUT","url":"/move/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:53.968Z","level":"INFO","message":"Moving task","taskId":"69b0e8f7fda43fe06e3dc2b9","toStatus":"inprogress","by":"ashutosh2135@gmail.com"}
+{"timestamp":"2026-03-11T06:54:54.461Z","level":"INFO","message":"Task moved successfully","taskId":"69b0e8f7fda43fe06e3dc2b9","taskNumber":"003","from":"todo","to":"inprogress"}
+{"timestamp":"2026-03-11T06:54:54.718Z","level":"INFO","message":"Task moved successfully in 751ms","taskId":"69b0e8f7fda43fe06e3dc2b9","taskNumber":"003","method":"PUT","url":"/move/69b0e8f7fda43fe06e3dc2b9","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:54.725Z","level":"API","message":"PUT /move/69b0e8f7fda43fe06e3dc2b9","method":"PUT","url":"/move/69b0e8f7fda43fe06e3dc2b9","statusCode":200,"responseTime":"760ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:54:54.733Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0e8f7fda43fe06e3dc2b9","movedBy":"ashutosh2135@gmail.com"}
+{"timestamp":"2026-03-11T06:55:07.937Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:07.938Z","level":"API","message":"OPTIONS /tasks/move/69b0ef13d2aea291466b398f","method":"OPTIONS","url":"/tasks/move/69b0ef13d2aea291466b398f","statusCode":204,"responseTime":"1ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:07.940Z","level":"INFO","message":"Incoming PUT request","query":{},"body":{"status":"todo","order":1,"user":{"_id":"69b0ce5fa21b1c5e3722d11e","name":"Sumit Singh","email":"sumit@saleassist.ai","phone":"7766443311","createdAt":"2026-03-11T02:07:27.734Z","updatedAt":"2026-03-11T06:13:28.324Z","__v":0}},"method":"PUT","url":"/tasks/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:07.941Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"todo","toOrder":1,"method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:07.942Z","level":"INFO","message":"Moving task","taskId":"69b0ef13d2aea291466b398f","toStatus":"todo","by":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:55:08.431Z","level":"INFO","message":"Task moved successfully","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","from":"inprogress","to":"todo"}
+{"timestamp":"2026-03-11T06:55:08.678Z","level":"INFO","message":"Task moved successfully in 737ms","taskId":"69b0ef13d2aea291466b398f","taskNumber":"006","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:08.680Z","level":"API","message":"PUT /move/69b0ef13d2aea291466b398f","method":"PUT","url":"/move/69b0ef13d2aea291466b398f","statusCode":200,"responseTime":"740ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:08.684Z","level":"SOCKET","message":"Socket: taskMoved","event":"taskMoved","socketId":null,"taskId":"69b0ef13d2aea291466b398f","movedBy":"sumit@saleassist.ai"}
+{"timestamp":"2026-03-11T06:55:13.988Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:13.993Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:13.995Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:13.998Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.000Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"2ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.001Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.005Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"3ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.009Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.492Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"483ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:55:14.494Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:14.977Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"483ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:55:18.013Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:22.939Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:22.941Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:22.943Z","level":"SOCKET","message":"Socket: taskEditingStarted","event":"taskEditingStarted","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:22.944Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:22.948Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:22.949Z","level":"INFO","message":"Incoming OPTIONS request","query":{},"method":"OPTIONS","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:22.953Z","level":"API","message":"OPTIONS /users/list/all","method":"OPTIONS","url":"/users/list/all","statusCode":204,"responseTime":"4ms","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:22.956Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:23.440Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"484ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:55:23.444Z","level":"INFO","message":"Incoming GET request","query":{},"method":"GET","url":"/users/list/all","ip":"::1"}
+{"timestamp":"2026-03-11T06:55:23.935Z","level":"API","message":"GET /list/all","method":"GET","url":"/list/all","statusCode":304,"responseTime":"491ms","ip":"::1","userId":"69ad9f3322599de7657463c3"}
+{"timestamp":"2026-03-11T06:55:30.155Z","level":"SOCKET","message":"Socket: taskEditingStopped","event":"taskEditingStopped","socketId":null,"taskId":"69b0ef13d2aea291466b398f","userId":"69ad9f3322599de7657463c3","userName":"Ashutosh Mishra"}
+{"timestamp":"2026-03-11T06:55:38.821Z","level":"SOCKET","message":"Socket: disconnect","event":"disconnect","socketId":"iP6_th0hd8GfLRIWAAAX"}
