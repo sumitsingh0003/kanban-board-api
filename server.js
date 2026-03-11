@@ -2,7 +2,9 @@ const express = require("express");
 const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
+
 require("dotenv").config();
+
 const connectDB = require("./config/db");
 const taskRoutes = require("./routes/taskRoutes");
 const socketHandler = require("./socket/socketHandler");
@@ -13,7 +15,6 @@ const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 app.use(express.json());
-// connectDB();
 
 const allowedOrigins = [
   "http://localhost:3000",
